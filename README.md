@@ -8,7 +8,7 @@ Periodic background tasks for React Native apps, cross-platform (iOS and
 Android), which run even when the app is closed.
 
 This library allows the scheduling of a single periodic task, which executes
-when the app is in the background or closed, no more frequently than every 15
+when the app is in the background or closed, no more frequently than every 5
 minutes.  Network, AsyncStorage etc can be used (anything except UI), so
 perfect for things like a background data sync for offline support.
 

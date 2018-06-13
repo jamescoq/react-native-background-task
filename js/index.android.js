@@ -19,7 +19,7 @@ const BackgroundTask: BackgroundTaskInterface = {
 
   schedule: function(
     {
-      period = 900, // 15 minutes
+      period = 600, // 10 minutes by default
       timeout = 30,
       flex,
     } = {}
